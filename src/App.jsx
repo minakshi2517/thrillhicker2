@@ -4,11 +4,15 @@ import SectionTwo from './components/SectionTwo';
 import TravelReelsSection from './components/TravelReelsSection';
 import WhyThrillHikersSection from './components/WhyThrillHikersSection';
 import Footer from './components/Footer';
+import ClickFloatingBadges from './components/ClickFloatingBadges';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-black text-stone-100 font-sans selection:bg-white selection:text-black">
       
+      {/* GLOBAL INTERACTIVE TAP FLOATING BADGES (AIJUGAAD.CO STYLE) */}
+      <ClickFloatingBadges />
+
       {/* 1. HERO SECTION (Pinned Cinematic Hero — UNTOUCHED & FROZEN) */}
       <CinematicHero />
 
